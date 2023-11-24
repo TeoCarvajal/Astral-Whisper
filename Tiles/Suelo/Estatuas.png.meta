@@ -1,0 +1,270 @@
+fileFormatVersion: 2
+guid: 90bac5415c5813340bee4258e0207879
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: qlmlfiib (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 32
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -9.5}
+        - {x: -14, y: -16.5}
+        - {x: -16, y: -37.5}
+        - {x: 16, y: -37.5}
+        - {x: 14, y: -15.5}
+        - {x: 11, y: -8.5}
+      tessellationDetail: 0.18
+      bones: []
+      spriteID: 65fc0234c67d7964797ee1899eee9060
+      internalID: 1312336144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qlmlfiib (1)_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 361
+        width: 48
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 14, y: -10}
+        - {x: -15, y: -11}
+        - {x: -23, y: -21}
+        - {x: -24, y: -53}
+        - {x: -20, y: -56}
+        - {x: 20, y: -57}
+        - {x: 24, y: -53}
+        - {x: 23, y: -20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9163dd0016a1e104492bfdcdac155c79
+      internalID: -1703881206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qlmlfiib (1)_2
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 171
+        width: 73
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 27.5, y: -40}
+        - {x: 27.5, y: -23}
+        - {x: 22.5, y: -12}
+        - {x: -0.5, y: -13}
+        - {x: -26.5, y: -15}
+        - {x: -29.5, y: -39}
+        - {x: -36.5, y: -58}
+        - {x: -15.5, y: -73}
+        - {x: 15.5, y: -73}
+        - {x: 33.5, y: -60}
+        - {x: 33.5, y: -51}
+        - {x: 30.5, y: -44}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89da9aa639e8d684d924f2384e57129f
+      internalID: 1891155566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qlmlfiib (1)_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 220
+        width: 61
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4.5, y: -2.5}
+        - {x: -17.5, y: -3.5}
+        - {x: -23.5, y: -5.5}
+        - {x: -23.5, y: -48.5}
+        - {x: 23.5, y: -48.5}
+        - {x: 23.5, y: -8.5}
+        - {x: 15.5, y: -1.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c297a9a0900b59e4a93fc236c3f976c9
+      internalID: -311246317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: qlmlfiib (1)_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 8
+        width: 121
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65dc5642df86690479017adedf8f0ab1
+      internalID: 149223149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      qlmlfiib (1)_0: 1312336144
+      qlmlfiib (1)_1: -1703881206
+      qlmlfiib (1)_2: 1891155566
+      qlmlfiib (1)_3: -311246317
+      qlmlfiib (1)_4: 149223149
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
