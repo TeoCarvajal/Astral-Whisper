@@ -14,10 +14,12 @@ public class Player_movement : MonoBehaviour
     public Vector2 Direction => direccion;
     public float VelocidadMovimiento => _VelocidadMovimiento;
     private Rigidbody2D rb2D;
+    private Animator animator;
 
     private void Start() {
         rb2D = GetComponent<Rigidbody2D>();
         player_dash = GetComponent<Player_dash>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update() {
@@ -25,6 +27,9 @@ public class Player_movement : MonoBehaviour
         float moveY = Input.GetAxisRaw("Vertical");
         sprint = Input.GetKey(KeyCode.LeftShift);
         direccion = new Vector2(moveX, moveY).normalized;
+        animator.SetFloat("Horizontal", moveX);
+        animator.SetFloat("Vertical", moveY);
+        animator.SetFloat("Speed", direccion.sqrMagnitude);
     }
     
     private void FixedUpdate() {

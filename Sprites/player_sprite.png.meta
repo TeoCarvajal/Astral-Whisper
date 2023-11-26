@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b1fd9156f5c39cd4b8b2b153c507ac77
+guid: 110574315aa548e4cb5c0426ddba3c89
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,175 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: frente_exo_4 (2)_0
+      name: player_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 196
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41230f97bd8dcbf44a42f538a9150b1b
+      internalID: -805399791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 196
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77dfb2aac274094290c5c24fa4f0a99
+      internalID: -2104520536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 196
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af1645668722d848af2ceb8add50585
+      internalID: 1973108494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 196
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92458614da0fbaa45817738e948bd420
+      internalID: 1678771312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 196
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b0498f22014744aafbb69b1ec6475c
+      internalID: -971609822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 196
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a1cb068f3e0c0438c066861289ee0d
+      internalID: 920374641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sprite_6
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 196
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bea03d846702d344b0369023b3f9aad
+      internalID: 814233539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sprite_7
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 196
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147f4d643f52a164c9c0b193bc38cfc4
+      internalID: -499911239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sprite_8
       rect:
         serializedVersion: 2
         x: 0
@@ -131,20 +299,20 @@ TextureImporter:
         width: 28
         height: 44
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2e270afa56e00b45b19c77f358d49d5
-      internalID: 654550982
+      spriteID: b454593b40f45b94cbb4fca1a4cbe4b4
+      internalID: 608828829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: frente_exo_4 (2)_1
+      name: player_sprite_9
       rect:
         serializedVersion: 2
         x: 29
@@ -152,20 +320,20 @@ TextureImporter:
         width: 28
         height: 44
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c9d8adc4a7a04944941ebc337c5e648
-      internalID: -1938907962
+      spriteID: a94cc347d5b8da94a9bbcf0bca919451
+      internalID: 353593001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: frente_exo_4 (2)_2
+      name: player_sprite_10
       rect:
         serializedVersion: 2
         x: 58
@@ -173,20 +341,20 @@ TextureImporter:
         width: 28
         height: 44
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78f8e6d6b4f69be40b9e99d199d2e810
-      internalID: 2109478777
+      spriteID: 95b2dd54ad7e4a24d8d4dc0b8f4742e6
+      internalID: -1600762050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: frente_exo_4 (2)_3
+      name: player_sprite_11
       rect:
         serializedVersion: 2
         x: 87
@@ -194,20 +362,20 @@ TextureImporter:
         width: 28
         height: 44
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e799b5c783e2c294e9761e492f11b3b8
-      internalID: -241053302
+      spriteID: 86c0d5f341f4a0144bc6ba47ce15b447
+      internalID: -929064748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: frente_exo_4 (2)_4
+      name: player_sprite_12
       rect:
         serializedVersion: 2
         x: 116
@@ -215,20 +383,20 @@ TextureImporter:
         width: 28
         height: 44
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d6fd25edd4dcd244826d760240acada
-      internalID: 802711813
+      spriteID: 18fb76957891c654a9fffd3f1f620dc7
+      internalID: -1715902391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: frente_exo_4 (2)_5
+      name: player_sprite_13
       rect:
         serializedVersion: 2
         x: 145
@@ -236,665 +404,434 @@ TextureImporter:
         width: 28
         height: 44
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3863db15dcee129468004625ddcf7010
-      internalID: 284754121
+      spriteID: 90d40611c806ef94cb4ffeb6992d74fd
+      internalID: 981089628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: frente_exo_4 (2)_6
+      name: player_sprite_14
       rect:
         serializedVersion: 2
-        x: 175
+        x: 209
         y: 148
-        width: 28
+        width: 20
         height: 44
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 099caeffb5b378b42804a7de528c8b5e
-      internalID: 1831057036
+      spriteID: 71aa4e9ed391bed4cb5896a0e2caabd9
+      internalID: 29277588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: frente_exo_4 (2)_7
+      name: player_sprite_15
       rect:
         serializedVersion: 2
-        x: 0
+        x: 5
         y: 100
-        width: 28
+        width: 20
         height: 44
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 267bbcc0c5ef9e6439e1059e42cb61a7
-      internalID: -2110725251
+      spriteID: 26a55cadda78c0647a80dd3e6f9e5392
+      internalID: -920301526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: frente_exo_4 (2)_8
+      name: player_sprite_16
       rect:
         serializedVersion: 2
-        x: 29
+        x: 34
         y: 100
-        width: 28
+        width: 20
         height: 44
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1a56df208141c148bcce55541f420e8
-      internalID: 51101802
+      spriteID: 2b2943acc4aab95498ebe00ee8f05d59
+      internalID: -1861333163
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: frente_exo_4 (2)_9
+      name: player_sprite_17
       rect:
         serializedVersion: 2
-        x: 58
+        x: 63
         y: 100
-        width: 28
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73a4c4f5cc71a57429ea2b9bce84b698
-      internalID: 1399218777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frente_exo_4 (2)_10
-      rect:
-        serializedVersion: 2
-        x: 87
-        y: 100
-        width: 28
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f422c39c9edf94e47a2ce32ff136a584
-      internalID: 212726686
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frente_exo_4 (2)_11
-      rect:
-        serializedVersion: 2
-        x: 116
-        y: 100
-        width: 28
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7397174e7a67c3b43b70704f971cc88e
-      internalID: 1545433594
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frente_exo_4 (2)_12
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 100
-        width: 28
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6bf033a0143b17b47bc2e9c053a7376b
-      internalID: 1793170753
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frente_exo_4 (2)_13
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 130
-        width: 7
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6cee217d7b07f134590a3f656cc8a329
-      internalID: 284653686
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frente_exo_4 (2)_14
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 73
-        width: 10
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0daa7f49fae3e443b56cf8d4144b7fa
-      internalID: -1430598300
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frente_exo_4 (2)_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 78
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 074e6d703839db041bdd6fa933b6b428
-      internalID: 1925955165
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frente_exo_4 (2)_16
-      rect:
-        serializedVersion: 2
-        x: 29
-        y: 73
-        width: 10
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c8dd0ea9c2a46eb4a8c06beba162428b
-      internalID: -2128060504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frente_exo_4 (2)_17
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 74
-        width: 22
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62717d2004f4982498f7c232fdfead08
-      internalID: 1167903884
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frente_exo_4 (2)_18
-      rect:
-        serializedVersion: 2
-        x: 58
-        y: 73
-        width: 10
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 772e065091b6a3042b3aadbe0b19ae34
-      internalID: 447566664
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frente_exo_4 (2)_19
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 74
-        width: 27
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33fb65569e11b3b45bc1dfcccd520ac1
-      internalID: 305744235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frente_exo_4 (2)_20
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 74
-        width: 27
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 922d348eb330f7a4091e62dee1b5277f
-      internalID: 892893584
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frente_exo_4 (2)_21
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 77
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f54f1976c4c56ce4ab63b39c92daac94
-      internalID: 1033270844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frente_exo_4 (2)_22
-      rect:
-        serializedVersion: 2
-        x: 164
-        y: 88
-        width: 7
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 415bff6ea0cc7a14daa2d94e8b90429c
-      internalID: 1990152551
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frente_exo_4 (2)_23
-      rect:
-        serializedVersion: 2
-        x: 169
-        y: 71
-        width: 15
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2dabfdd963b721442b9b8cb767883504
-      internalID: -426607184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frente_exo_4 (2)_24
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 77
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0aec327bad458044aa13b1943a60d4c
-      internalID: -1097781747
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frente_exo_4 (2)_25
-      rect:
-        serializedVersion: 2
-        x: 151
-        y: 3
-        width: 17
-        height: 45
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c5b02695ec4bb343b731c129fc0f6b0
-      internalID: 1612361941
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frente_exo_4 (2)_26
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 55
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 81f308901526575438ec56cd1bb01dde
-      internalID: 381918447
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frente_exo_4 (2)_27
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 52
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 675c80ed5ab45f545825bc96aa077653
-      internalID: 814157176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frente_exo_4 (2)_28
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 4
-        width: 35
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f76c20bcbb9aa184881fb0d0d719a303
-      internalID: 1513985501
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frente_exo_4 (2)_29
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 28
-        width: 26
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7905b622c8fe45947b002b61fa0fc26c
-      internalID: 960404595
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frente_exo_4 (2)_30
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 12
-        width: 27
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4474a5e6b0f33624dbe1a6d88dfa941f
-      internalID: -872964562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frente_exo_4 (2)_31
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 28
-        width: 26
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d74196794e2cb9409d60a138dd7b2d3
-      internalID: 1973938471
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frente_exo_4 (2)_32
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 4
-        width: 17
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 31ac014e9de43964fb94390761c7c029
-      internalID: 1133548995
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frente_exo_4 (2)_33
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 4
         width: 18
         height: 44
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97a3ff017e55a604aa890ca0678ae332
-      internalID: 1419774534
+      spriteID: da97ccbd9b68ec34c91474b19e3a220f
+      internalID: 1472418645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: frente_exo_4 (2)_34
+      name: player_sprite_18
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 100
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b74a8c276ea0da4c96892192e6e7ccd
+      internalID: 1494356628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sprite_19
       rect:
         serializedVersion: 2
         x: 122
-        y: 4
+        y: 100
         width: 17
         height: 44
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ab8be64e3bb3fc4a83654ad70230ff4
-      internalID: 1096921864
+      spriteID: 323eddf2a6900a944a34f9af04e8eaed
+      internalID: -1593522871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: frente_exo_4 (2)_35
+      name: player_sprite_20
       rect:
         serializedVersion: 2
-        x: 1
-        y: 7
-        width: 9
-        height: 5
+        x: 177
+        y: 100
+        width: 20
+        height: 44
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fca854c45917e9b4ebde07af7e769a71
-      internalID: 1109107527
+      spriteID: 715aa86e09fd891459b69708d3185f8b
+      internalID: 461096671
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: frente_exo_4 (2)_36
+      name: player_sprite_21
       rect:
         serializedVersion: 2
-        x: 48
+        x: 207
+        y: 100
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb4fc897dd4f954491237ab8113a731
+      internalID: -1608168755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sprite_22
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 52
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c9692f6ae45a148826a100ed612fbf
+      internalID: 1765613088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sprite_23
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 52
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0605024e7cf18064d87a1efc9b70f5f2
+      internalID: 2010214087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sprite_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 52
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4c90aff7d9c0248a54858d0a68b11a
+      internalID: -1560870913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sprite_25
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 52
+        width: 17
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40c0ce4bd809964fb3e47774e4701ee
+      internalID: -1635547777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sprite_26
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 52
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc55f600ed94d7e4e9b1ba61b528b344
+      internalID: -2026801553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sprite_27
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 52
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4d3f81657189e46947c0b4609caee8
+      internalID: 1489802256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sprite_28
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 52
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4e2996424f1af41abd4503270dd297
+      internalID: 1739120502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sprite_29
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 4
-        width: 10
-        height: 8
+        width: 29
+        height: 44
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab9477e43e7dfd04b8bccba217226512
-      internalID: -440590289
+      spriteID: 57b0d454c7d01fb47af745ab2003a68a
+      internalID: 485435956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sprite_30
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 4
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a569368bc48ec9d4b8b9f573dbeaf535
+      internalID: -1699492524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sprite_31
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 4
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae491a56ea8d7a4a8370ed9b468d7b2
+      internalID: -1269211984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sprite_32
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 4
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8719ed855d60447a7571c8eeba35df
+      internalID: 14605989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sprite_33
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 4
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4631fd737d834146a81abcf35a81c6c
+      internalID: 101203304
       vertices: []
       indices: 
       edges: []
@@ -910,43 +847,40 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      frente_exo_4 (2)_0: 654550982
-      frente_exo_4 (2)_1: -1938907962
-      frente_exo_4 (2)_10: 212726686
-      frente_exo_4 (2)_11: 1545433594
-      frente_exo_4 (2)_12: 1793170753
-      frente_exo_4 (2)_13: 284653686
-      frente_exo_4 (2)_14: -1430598300
-      frente_exo_4 (2)_15: 1925955165
-      frente_exo_4 (2)_16: -2128060504
-      frente_exo_4 (2)_17: 1167903884
-      frente_exo_4 (2)_18: 447566664
-      frente_exo_4 (2)_19: 305744235
-      frente_exo_4 (2)_2: 2109478777
-      frente_exo_4 (2)_20: 892893584
-      frente_exo_4 (2)_21: 1033270844
-      frente_exo_4 (2)_22: 1990152551
-      frente_exo_4 (2)_23: -426607184
-      frente_exo_4 (2)_24: -1097781747
-      frente_exo_4 (2)_25: 1612361941
-      frente_exo_4 (2)_26: 381918447
-      frente_exo_4 (2)_27: 814157176
-      frente_exo_4 (2)_28: 1513985501
-      frente_exo_4 (2)_29: 960404595
-      frente_exo_4 (2)_3: -241053302
-      frente_exo_4 (2)_30: -872964562
-      frente_exo_4 (2)_31: 1973938471
-      frente_exo_4 (2)_32: 1133548995
-      frente_exo_4 (2)_33: 1419774534
-      frente_exo_4 (2)_34: 1096921864
-      frente_exo_4 (2)_35: 1109107527
-      frente_exo_4 (2)_36: -440590289
-      frente_exo_4 (2)_4: 802711813
-      frente_exo_4 (2)_5: 284754121
-      frente_exo_4 (2)_6: 1831057036
-      frente_exo_4 (2)_7: -2110725251
-      frente_exo_4 (2)_8: 51101802
-      frente_exo_4 (2)_9: 1399218777
+      player_sprite_0: -805399791
+      player_sprite_1: -2104520536
+      player_sprite_10: -1600762050
+      player_sprite_11: -929064748
+      player_sprite_12: -1715902391
+      player_sprite_13: 981089628
+      player_sprite_14: 29277588
+      player_sprite_15: -920301526
+      player_sprite_16: -1861333163
+      player_sprite_17: 1472418645
+      player_sprite_18: 1494356628
+      player_sprite_19: -1593522871
+      player_sprite_2: 1973108494
+      player_sprite_20: 461096671
+      player_sprite_21: -1608168755
+      player_sprite_22: 1765613088
+      player_sprite_23: 2010214087
+      player_sprite_24: -1560870913
+      player_sprite_25: -1635547777
+      player_sprite_26: -2026801553
+      player_sprite_27: 1489802256
+      player_sprite_28: 1739120502
+      player_sprite_29: 485435956
+      player_sprite_3: 1678771312
+      player_sprite_30: -1699492524
+      player_sprite_31: -1269211984
+      player_sprite_32: 14605989
+      player_sprite_33: 101203304
+      player_sprite_4: -971609822
+      player_sprite_5: 920374641
+      player_sprite_6: 814233539
+      player_sprite_7: -499911239
+      player_sprite_8: 608828829
+      player_sprite_9: 353593001
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
