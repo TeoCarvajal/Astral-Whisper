@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4516802443218944836}
   - component: {fileID: 1836261351547040514}
   - component: {fileID: 3235037634849483757}
+  - component: {fileID: 4610199998272586306}
   - component: {fileID: 8434854462227136104}
   - component: {fileID: 47730792134263955}
   - component: {fileID: 805851161084412311}
@@ -136,6 +137,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4528601, y: 0.5864916}
   m_EdgeRadius: 0
+--- !u!114 &4610199998272586306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6159241268213006138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e72853713a81b3478fd8ff347cbf3bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player_life: 100
+  player_stamine: 50
+  max_stamine: 50
+  stamine_multiplier: 4
 --- !u!114 &8434854462227136104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,6 +169,7 @@ MonoBehaviour:
   dash_force: 20
   dash_freeze_time: 1
   is_dashing: 0
+  stamine_penalty: 20
   can_dash: 1
 --- !u!114 &47730792134263955
 MonoBehaviour:
@@ -169,6 +187,7 @@ MonoBehaviour:
   _VelocidadSprint: 1.75
   direccion: {x: 0, y: 0}
   sprint: 0
+  stamine_penalty: 8
 --- !u!50 &805851161084412311
 Rigidbody2D:
   serializedVersion: 4

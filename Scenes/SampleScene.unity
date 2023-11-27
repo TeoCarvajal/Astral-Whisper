@@ -137,7 +137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6712886305537304751, guid: a0a5be41b3b7e724985967a395b3b890, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8177490924262269868, guid: a0a5be41b3b7e724985967a395b3b890, type: 3}
       propertyPath: m_LocalPosition.x
@@ -399,8 +399,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4610199998272586306, guid: 7d0d5110ade9e1f4a83babe5b047c959, type: 3}
+      propertyPath: player_life
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610199998272586306, guid: 7d0d5110ade9e1f4a83babe5b047c959, type: 3}
+      propertyPath: player_stamine
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 6159241268213006138, guid: 7d0d5110ade9e1f4a83babe5b047c959, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6159241268213006138, guid: 7d0d5110ade9e1f4a83babe5b047c959, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
