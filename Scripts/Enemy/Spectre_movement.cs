@@ -8,6 +8,9 @@ public class Spectre_movement : MonoBehaviour
 
     [Header("Enemy")]
     [SerializeField] private float life;
+    [SerializeField] private float spectre_damage;
+    [SerializeField] private float spectre_time_damage;
+    private float next_damage;
     [SerializeField] private float maxX, minX, maxY, minY;
     
     [Header("Movement")]
@@ -52,6 +55,16 @@ public class Spectre_movement : MonoBehaviour
             Vector2 spawnPoint = new Vector2(Random.Range(minX, maxX), Random.Range(minY, maxY));
             if(IsPositionOnGround(spawnPoint)){
                 gameObject.transform.position = spawnPoint;
+            }
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D other) {
+        if(other.CompareTag("Player")){
+            next_damage -= Time.deltaTime;
+            if(next_damage <= 0){
+                other.GetComponent<Player_status>().TakeDamage(spectre_damage);
+                next_damage = spectre_time_damage;
             }
         }
     }
