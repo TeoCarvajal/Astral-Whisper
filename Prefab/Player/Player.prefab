@@ -183,7 +183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6329a6914d1e29b46a0048f5f7ac55ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _VelocidadMovimiento: 2
+  _VelocidadMovimiento: 4
   _VelocidadSprint: 1.75
   direccion: {x: 0, y: 0}
   sprint: 0
