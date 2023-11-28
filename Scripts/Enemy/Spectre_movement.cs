@@ -7,6 +7,7 @@ public class Spectre_movement : MonoBehaviour
 {
 
     [Header("Enemy")]
+    private Animator spectre_animator;
     [SerializeField] private float life;
     [SerializeField] private float spectre_damage;
     [SerializeField] private float spectre_time_damage;
@@ -19,6 +20,7 @@ public class Spectre_movement : MonoBehaviour
 
     void Start()
     {
+        spectre_animator = GetComponent<Animator>();
         objetive = FindObjectOfType<Player_dash>().gameObject;
         navMeshAgent = GetComponent<NavMeshAgent>();
         navMeshAgent.updateRotation = false;
@@ -46,17 +48,30 @@ public class Spectre_movement : MonoBehaviour
     public void TakeDamage(float damage){
         life -= damage;
         if (life <= 0){
-            Destroy(gameObject);
+            spectre_animator.SetBool("Dead", true);
+            float delayBeforeDestroy = 0.65f; 
+            Invoke("DestroySpectre", delayBeforeDestroy);
         } else {
-            maxX = Camera.main.transform.position.x + 25;
-            minX = Camera.main.transform.position.x - 25;
-            maxY = Camera.main.transform.position.y + 25;
-            minY = Camera.main.transform.position.y - 25;
-            Vector2 spawnPoint = new Vector2(Random.Range(minX, maxX), Random.Range(minY, maxY));
-            if(IsPositionOnGround(spawnPoint)){
-                gameObject.transform.position = spawnPoint;
-            }
+            spectre_animator.SetBool("Teletransportation", true);
+            float delayBeforeMove = 0.65f; 
+            Invoke("SpectreTeletransportation", delayBeforeMove);
         }
+    }
+
+    private void SpectreTeletransportation(){
+        maxX = Camera.main.transform.position.x + 25;
+        minX = Camera.main.transform.position.x - 25;
+        maxY = Camera.main.transform.position.y + 25;
+        minY = Camera.main.transform.position.y - 25;
+        Vector2 spawnPoint = new Vector2(Random.Range(minX, maxX), Random.Range(minY, maxY));
+        if(IsPositionOnGround(spawnPoint)){
+            gameObject.transform.position = spawnPoint;
+        }
+        spectre_animator.SetBool("Teletransportation", false);
+    }
+
+    private void DestroySpectre(){
+        Destroy(gameObject);
     }
 
     private void OnTriggerStay2D(Collider2D other) {
