@@ -13,6 +13,7 @@ public class Player_dash : MonoBehaviour
     [SerializeField] private float dash_time = 0.2f;
     [SerializeField] private float dash_force = 20f;
     [SerializeField] private float dash_freeze_time = 1f;
+    [SerializeField] private TrailRenderer trail_renderer;
     [SerializeField] private bool is_dashing;
     [SerializeField] private float stamine_penalty;
     public bool IsDashing => is_dashing;
@@ -36,10 +37,12 @@ public class Player_dash : MonoBehaviour
         if( player.Direction.sqrMagnitude != 0 && can_dash && (player_status.Stamine >= stamine_penalty)){
             is_dashing = true;
             can_dash = false;
+            trail_renderer.emitting = true;
             rb2D.velocity = player.Direction * dash_force;
             player_status.DownStamine(stamine_penalty);
             yield return new WaitForSeconds(dash_time);
             is_dashing = false;
+            trail_renderer.emitting = false;
             yield return new WaitForSeconds(dash_freeze_time);
             can_dash = true;
         }

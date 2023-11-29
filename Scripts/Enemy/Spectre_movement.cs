@@ -78,9 +78,15 @@ public class Spectre_movement : MonoBehaviour
         if(other.CompareTag("Player")){
             next_damage -= Time.deltaTime;
             if(next_damage <= 0){
-                other.GetComponent<Player_status>().TakeDamage(spectre_damage);
-                next_damage = spectre_time_damage;
+                spectre_animator.SetBool("Attack", true);
+                StartCoroutine(SpectreAttack(other));
             }
         }
+    }
+    private IEnumerator SpectreAttack(Collider2D other){
+        other.GetComponent<Player_status>().TakeDamage(spectre_damage);
+        next_damage = spectre_time_damage;
+        yield return new WaitForSeconds(0.5f);
+        spectre_animator.SetBool("Attack", false);
     }
 }
