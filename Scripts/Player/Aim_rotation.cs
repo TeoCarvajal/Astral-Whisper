@@ -17,7 +17,7 @@ public class Aim_rotation : MonoBehaviour
         objetive = camera.ScreenToWorldPoint(Input.mousePosition);
 
         float radian_angle = Mathf.Atan2(objetive.y - transform.position.y, objetive.x - transform.position.x);
-        float degree_angle = (180 / Mathf.PI) * radian_angle;
+        float degree_angle = (180 / Mathf.PI) * radian_angle - 90;
         transform.rotation = Quaternion.Euler(0, 0, degree_angle);
     }
 }

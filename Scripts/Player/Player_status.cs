@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player_status : MonoBehaviour
 {
+    [Header ("Status")]
     private Rigidbody2D rb2D;
     private Animator animator;
 
@@ -11,11 +12,16 @@ public class Player_status : MonoBehaviour
     [SerializeField] private float player_stamine;
     [SerializeField] private float max_stamine;
     [SerializeField] private float stamine_multiplier;
+    [SerializeField] public float player_score;
+
+    [Header ("Power")]
+
+    [SerializeField] private GameObject magic_shield;
 
     public float Stamine => player_stamine;
 
     private void Start() {
-        
+        animator = GetComponent<Animator>();
     }
 
     private void Update() {
@@ -24,11 +30,21 @@ public class Player_status : MonoBehaviour
         }
     }
 
+    
     public void TakeDamage(float damage){
-        player_life -= damage;
-        if (player_life <= 0){
-            Destroy(gameObject);
+        if(!magic_shield.transform.GetComponent<Magic_shield_behaviour>().ShieldActive){
+            player_life -= damage;
+            animator.SetTrigger("Damaged");
+            if (player_life <= 0){
+                Destroy(gameObject);
+            }
+        }else{
+            magic_shield.transform.GetComponent<Magic_shield_behaviour>().ReduceDurability(damage);
         }
+    }
+
+    private void DamagedAnimationOver(){
+        // animator.SetBool("Damaged", false);
     }
 
     public void DownStamine(float stamine_rest){

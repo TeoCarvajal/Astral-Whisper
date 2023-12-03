@@ -13,8 +13,13 @@ public class Magic_sphere_behaviour : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.CompareTag("Enemy")){
-            other.GetComponent<Spectre_movement>().TakeDamage(damage);
+            IDamage enemy_object = other.GetComponent<IDamage>();
+            if(enemy_object != null){
+                enemy_object.TakeDamage(damage);
+            }
         }
-        Destroy(gameObject);
+        if(!other.CompareTag("Player")){
+            Destroy(gameObject);
+        }
     }
 }
