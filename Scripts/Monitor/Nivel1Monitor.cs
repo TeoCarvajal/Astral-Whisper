@@ -15,7 +15,7 @@ public class Nivel1Monitor : MonoBehaviour
         isFinalBossAlive = false;
         player_status = player.GetComponent<Player_status>();
         enemy_generator_controller = enemy_generator.GetComponent<Enemy_generator>();
-        enemy_generator_controller.maxEnemies = 5;
+        enemy_generator_controller.maxEnemies = 1;
     } 
 
     private void Update() {

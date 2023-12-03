@@ -507,6 +507,7 @@ MonoBehaviour:
   player_stamine: 50
   max_stamine: 50
   stamine_multiplier: 4
+  player_score: 0
   magic_shield: {fileID: 1928812779845875202}
 --- !u!114 &8434854462227136104
 MonoBehaviour:
@@ -588,7 +589,7 @@ MonoBehaviour:
   damage: 25
   ranged_sphere: {fileID: 2696460507845614687, guid: 0d14bde6d349b0144bce2aed8aef60d1, type: 3}
   canShield: 1
-  magic_shield: {fileID: 1928812779845875202}
+  magic_shield: {fileID: 2696460507845614687, guid: 0d14bde6d349b0144bce2aed8aef60d1, type: 3}
   potion: {fileID: 6121774764348880936, guid: b07f0ef4d6f37684b9bc20bc71a2970b, type: 3}
   earthquake: {fileID: 2423373778410552245, guid: 898f65e654bce784aa679fd49f95f7b4, type: 3}
 --- !u!95 &-461187027610775177
