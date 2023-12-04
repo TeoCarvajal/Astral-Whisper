@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: "peque\xF1a antorcha"
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -1629681150, guid: a262e5569966d844aafe1a6b7a04145a, type: 3}
+  - {fileID: 465941798, guid: a262e5569966d844aafe1a6b7a04145a, type: 3}
+  - {fileID: -1171736699, guid: a262e5569966d844aafe1a6b7a04145a, type: 3}
+  - {fileID: 2073999575, guid: a262e5569966d844aafe1a6b7a04145a, type: 3}
+  m_MinSpeed: 5
+  m_MaxSpeed: 5
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 1
+  m_TileAnimationFlags: 0
