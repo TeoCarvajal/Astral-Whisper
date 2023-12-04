@@ -8,6 +8,7 @@ public class Player_status : MonoBehaviour
     private Rigidbody2D rb2D;
     private Animator animator;
 
+    [SerializeField] private Hp_bar life_bar;
     [SerializeField] private float player_life;
     [SerializeField] private float player_stamine;
     [SerializeField] private float max_stamine;
@@ -21,6 +22,7 @@ public class Player_status : MonoBehaviour
     public float Stamine => player_stamine;
 
     private void Start() {
+        life_bar.LifeStart(player_life);
         animator = GetComponent<Animator>();
     }
 
@@ -35,6 +37,7 @@ public class Player_status : MonoBehaviour
         if(!magic_shield.transform.GetComponent<Magic_shield_behaviour>().ShieldActive){
             player_life -= damage;
             animator.SetTrigger("Damaged");
+            life_bar.CurrentLife(player_life);
             if (player_life <= 0){
                 Destroy(gameObject);
             }
