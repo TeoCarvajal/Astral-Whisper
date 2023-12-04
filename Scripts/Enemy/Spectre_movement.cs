@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Spectre_movement : MonoBehaviour
+public class Spectre_movement : MonoBehaviour, IDamage
 {
 
     [Header("Enemy")]
@@ -11,8 +11,9 @@ public class Spectre_movement : MonoBehaviour
     [SerializeField] private float life;
     [SerializeField] private float spectre_damage;
     [SerializeField] private float spectre_time_damage;
+    [SerializeField] private float points_for_dead;
     private float next_damage;
-    [SerializeField] private float maxX, minX, maxY, minY;
+    private float maxX, minX, maxY, minY;
     
     [Header("Movement")]
     private GameObject objetive;
@@ -35,24 +36,25 @@ public class Spectre_movement : MonoBehaviour
 
     private bool IsPositionOnGround(Vector2 position)
     {
-        Collider2D collider = Physics2D.OverlapPoint(position);
+        Collider2D[] collider = Physics2D.OverlapPointAll(position);
         
-        if (collider != null && collider.CompareTag("Suelo"))
+        if (collider != null && collider.Length == 1)
         {
-            return true; // La posición está sobre el suelo
+            if(collider[0].CompareTag("Suelo")){
+                return true;
+            } // La posición está sobre el suelo
         }
-
         return false; // La posición no está sobre el suelo o no se detectó un colisionador
     }
 
     public void TakeDamage(float damage){
         life -= damage;
         if (life <= 0){
-            spectre_animator.SetBool("Dead", true);
+            spectre_animator.SetTrigger("Dead");
             float delayBeforeDestroy = 0.65f; 
             Invoke("DestroySpectre", delayBeforeDestroy);
         } else {
-            spectre_animator.SetBool("Teletransportation", true);
+            spectre_animator.SetTrigger("Teletransportation");
             float delayBeforeMove = 0.65f; 
             Invoke("SpectreTeletransportation", delayBeforeMove);
         }
@@ -67,10 +69,11 @@ public class Spectre_movement : MonoBehaviour
         if(IsPositionOnGround(spawnPoint)){
             gameObject.transform.position = spawnPoint;
         }
-        spectre_animator.SetBool("Teletransportation", false);
     }
 
     private void DestroySpectre(){
+        Player_status player_score = objetive.GetComponent<Player_status>();
+        player_score.player_score += points_for_dead;
         Destroy(gameObject);
     }
 
@@ -78,6 +81,7 @@ public class Spectre_movement : MonoBehaviour
         if(other.CompareTag("Player")){
             next_damage -= Time.deltaTime;
             if(next_damage <= 0){
+                spectre_animator.SetTrigger("Attack");
                 other.GetComponent<Player_status>().TakeDamage(spectre_damage);
                 next_damage = spectre_time_damage;
             }
