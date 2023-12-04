@@ -7,7 +7,6 @@ public class Player_combat : MonoBehaviour
     [SerializeField] private Transform punchController;
     [SerializeField] private float punchRadio;
     [SerializeField] private float damage;
-    [SerializeField] private GameObject ranged_sphere;
 
     [Header ("Power")]
 
