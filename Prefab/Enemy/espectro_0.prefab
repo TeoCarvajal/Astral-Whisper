@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3228130997913736743}
   - component: {fileID: 8323496659793216487}
   - component: {fileID: -7348474715344635286}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: espectro_0
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -148,11 +148,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   life: 100
   spectre_damage: 10
-  spectre_time_damage: 1
-  maxX: 0
-  minX: 0
-  maxY: 0
-  minY: 0
+  spectre_time_damage: 2
+  points_for_dead: 10
 --- !u!195 &3228130997913736743
 NavMeshAgent:
   m_ObjectHideFlags: 0

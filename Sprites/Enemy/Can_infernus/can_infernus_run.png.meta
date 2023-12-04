@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 609e119aacb9dd74ba98de89e6d23041
+guid: d09c4d3b2f159754f8fbd44c1ea62e22
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: espectro_0
+      name: hell-hound-run_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 13
         y: 0
-        width: 14
-        height: 16
+        width: 45
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,8 +137,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3f57c94914a76040a606e7163a0a7fa
-      internalID: 1732579275
+      spriteID: 187ac410a6a8ff14eb0be49e0e4aee04
+      internalID: 1946205985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hell-hound-run_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edfc0dcb1db0a64e8f7fc0f2edf8cc7
+      internalID: 477387295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hell-hound-run_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13435d6fe918f0c4db1987aeb8ca5596
+      internalID: -501329031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hell-hound-run_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 0
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1140958a1002a24a8f63207d0e33701
+      internalID: 932137399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hell-hound-run_4
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 0
+        width: 45
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a5632ad62c17349af3402d0a7e1e65
+      internalID: -1545050730
       vertices: []
       indices: 
       edges: []
@@ -154,7 +238,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      espectro_0: 1732579275
+      hell-hound-run_0: 1946205985
+      hell-hound-run_1: 477387295
+      hell-hound-run_2: -501329031
+      hell-hound-run_3: 932137399
+      hell-hound-run_4: -1545050730
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

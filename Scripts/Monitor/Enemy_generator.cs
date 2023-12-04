@@ -7,7 +7,7 @@ public class Enemy_generator : MonoBehaviour
     [SerializeField] private float maxX, minX, maxY, minY;
     [SerializeField] private GameObject[] enemies;
     [SerializeField] private float enemiesTime;
-    [SerializeField] private float maxEnemies;
+    [SerializeField] public float maxEnemies;
     private float time_next_enemy;
     private float contador = 0;
     void Start()
@@ -35,13 +35,14 @@ public class Enemy_generator : MonoBehaviour
 
     private bool IsPositionOnGround(Vector2 position)
     {
-        Collider2D collider = Physics2D.OverlapPoint(position);
+        Collider2D[] collider = Physics2D.OverlapPointAll(position);
         
-        if (collider != null && collider.CompareTag("Suelo"))
+        if (collider != null && collider.Length == 1)
         {
-            return true; // La posición está sobre el suelo
+            if(collider[0].CompareTag("Suelo")){
+                return true;
+            } // La posición está sobre el suelo
         }
-
         return false; // La posición no está sobre el suelo o no se detectó un colisionador
     }
 
